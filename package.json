@@ -1,0 +1,42 @@
+{
+  "name": "paystack-events",
+  "version": "0.1.0",
+  "description": "A tiny module to help you handle paystack api events automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 500 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-inately/paystack-events.git"
+  },
+  "keywords": [
+    "Paystack",
+    "events",
+    "paystack",
+    "events",
+    "charge",
+    "event",
+    "success"
+  ],
+  "author": "Yusuff Mustapha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-inately/paystack-events/issues"
+  },
+  "homepage": "https://github.com/dev-inately/paystack-events#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "express": "^4.17.1",
+    "koa": "^2.13.1",
+    "mocha": "^8.3.2",
+    "nock": "^13.0.11",
+    "paystack": "^2.0.1"
+  },
+  "dependencies": {}
+}
